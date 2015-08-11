@@ -101,28 +101,6 @@ hr.black {
 
 }
 
-.wagovt {
-
-    font-family: Arial, Helvetica;
-    font-size: 20px;
-
-}
-
-.wagovt .mjr {
-    font-size: 27px;
-
-}
-
-.wagovt a {
-    font-decoration: none;
-    color: black;
-}
-
-.wagovt hr {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-width: 1.5px;
-}
 
 @media (min-width:1180px) {
 
@@ -161,19 +139,19 @@ hr.black {
 
 
     .navbar {
-        height: 75px;
+        height: 140px;
     }
 
     .navbar > .container > .navbar-header {
-        height: 75px;
+        height: 140px;
     }
 
     .navbar > .container > .navbar-header > img {
-        height: 75px;
+        height: 140px;
     }
 
     .navbar > .container {
-        height: 75px
+        height: 140px;
     }
 
     #bg1 {
@@ -191,7 +169,7 @@ hr.black {
     .navbar > .container > .navbar-text {
         font-size: 20px;
 
-        margin-top: 19px;
+        margin-top: 49px;
         padding-left: 15px;
     }
 
