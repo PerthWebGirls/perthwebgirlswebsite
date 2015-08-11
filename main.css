@@ -1,14 +1,60 @@
+.blockpanel {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.colourpanel {
+    color: white;
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
 #bg1 {
-    background: url("bg.jpg") no-repeat center center fixed;
+    background: url("img/bg1.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
 
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+#bg2 {
+    background: url("img/bg2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#bg3 {
+    background: url("img/bg3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#bg4 {
+    background: url("img/bg4.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#bg5 {
+    background: url("img/bg5.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1, h2, h3 {
+    margin-top: 0px;
 }
 
 .btn {
@@ -24,7 +70,7 @@
 }
 
 #apply-second {
-    background: url("bg.jpg") no-repeat center center fixed;
+    background: url("img/bg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,12 +85,6 @@
     padding-bottom: 30px;
 }
 
-#bg3 {
-
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-
 #apply-second  a {
 
     margin-top: 15px;
@@ -55,22 +95,85 @@
     font-size: 1.1em;
 }
 
+hr.black {
+
+    border-color: black;
+
+}
+
+.wagovt {
+
+    font-family: Arial, Helvetica;
+    font-size: 20px;
+
+}
+
+.wagovt .mjr {
+    font-size: 27px;
+
+}
+
+.wagovt a {
+    font-decoration: none;
+    color: black;
+}
+
+.wagovt hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width: 1.5px;
+}
+
+@media (min-width:1180px) {
+
+
+    #mentors {
+
+        display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+        flex-wrap: wrap;
+
+    }
+
+    #mentors > div {
+
+        padding: 15px;
+        width: 32%;
+    }
+
+
+    #sponsors .row {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .flexfloat {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+}
+
 @media (min-width:768px) {
 
+
     .navbar {
-        height: 130px;
+        height: 75px;
     }
 
     .navbar > .container > .navbar-header {
-        height: 130px;
+        height: 75px;
     }
 
     .navbar > .container > .navbar-header > img {
-        height: 130px;
+        height: 75px;
     }
 
     .navbar > .container {
-        height: 130px
+        height: 75px
     }
 
     #bg1 {
@@ -88,7 +191,7 @@
     .navbar > .container > .navbar-text {
         font-size: 20px;
 
-        margin-top: 49px;
+        margin-top: 19px;
         padding-left: 15px;
     }
 
@@ -111,11 +214,7 @@
 }
 
 #sponsors {
-    background: rgb(240,240,240);
-    margin-top: 45px;
-    margin-bottom: 25px;
-    padding-top: 35px;
-    padding-bottom: 55px;
+    background: rgb(255,255,255);
 }
 
 h2 {
@@ -123,11 +222,29 @@ h2 {
     padding-bottom: 20px;
 }
 
-#sponsors  img {
+#sponsors img {
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 50px;
+    max-height: 200px;
+    vertical-align: middle;
 }
+
+#sponsors .row1 img {
+    max-height: 230px;
+}
+
+#sponsors .row2 img {
+    max-height: 200px;
+}
+
+#sponsors .row3 img {
+    max-height: 200px;
+}
+
+#sponsors .row4 img {
+    max-height: 100px;
+}
+
 
 .navbar {
     margin-bottom: 0px;
@@ -136,7 +253,6 @@ h2 {
 
 .mastfoot {
     color: white;
-    margin-top: 50px;
     padding-top: 30px;
     background: #2d2d2d;
     padding-bottom: 30px;
@@ -147,7 +263,54 @@ h2 {
     max-height: 100px;
 }
 
-#bg3 img {
-    float: middle;
-    margin-bottom: 10px
+
+.halfblock {
+    width: 45%;
+    float: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+
+#links {
+
+    background: rgb(244,244,244);
+
+}
+
+
+p.lead{
+    margin:0;
+}
+
+
+hr {
+    border-color: light-grey;
+}
+
+
+.mediaquotes ul {
+    padding-left: 10px;
+}
+
+.mediaquotes {
+    font-size: 1.9rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.mediaquotes blockquote {
+    font-size: 2.2rem;
+    margin-bottom: 0px;
+}
+
+
+.mediaquotes a {
+    text-decoration: underline;
+}
+
+.mediaquotes a:hover {
+    text-decoration: none;
 }
